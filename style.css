@@ -46,21 +46,19 @@ html{
     border:1px solid white;
     background-color:white;
     margin:5% 5% 5% 5%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/download.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/gnb.jpg");
     background-repeat: no-repeat;
   }
   .bg{
     margin:7% 5% 2% 40%;
     padding:2% 2% 2% 2%;
     background-color: #5289ee; 
-    color:#9ec72f;
+    color:#f3f028;
     font-size: 200%;
     font-family: cursive;
     text-align: center;
   }
-  .bg:visited{
-      visibility:none;
-  }
+  
   .gn{
      border:1px solid #141313;
       margin:1% 25% 2% 35%;
@@ -102,4 +100,77 @@ html{
      margin:5% 20% 5% 30%;
      padding: 0% 2% 0% 2%;
      text-align: center;
+     color:#aa1772;
+     background-image: linear-gradient(rgba(240, 221, 48, 0.918), rgba(38, 238, 38, 0.959)); 
+  }
+  .f{
+    border:1px solid rgb(82, 25, 25);
+    position:relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/3.png");
+    padding:8%;
+    overflow:hidden;
+  }
+  .dice img{
+    width:4.5%;
+    border-radius: 40%;
+    animation: dice 4s linear infinite;
+  }
+  .dice{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    position: absolute;
+    bottom:-30%;
+  }
+  @keyframes dice{
+    0%{
+      transform:translateY(0);
+      opacity:0;
+    }
+     50%{
+      
+      opacity:1;
+    }
+     70%{
+      
+      opacity:1;
+    }
+    100%{
+      transform:translateY(-40vh);
+      opacity:0;
+    }
+
+  }
+  .dice img:nth-child(1){
+    animation-delay:2s;
+    
+  }
+  .dice img:nth-child(2){
+    animation-delay:1s;
+  }
+  .dice img:nth-child(3){
+    animation-delay:3s;
+  }
+  .dice img:nth-child(4){
+    animation-delay:4.5s;
+  }
+  .dice img:nth-child(5){
+    animation-delay:3s;
+  }
+  .dice img:nth-child(6){
+    animation-delay:6s;
+    
+  }
+  .dice img:nth-child(7){
+    animation-delay:5s;
+    
+  }
+  .dice img:nth-child(8){
+    animation-delay:8s;
+    
+  }
+  .dice img:nth-child(9){
+    animation-delay:7s;
+    margin-right:15%;
   }
