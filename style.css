@@ -72,6 +72,8 @@ html{
     border:1px solid white;
     background-color:white;
     margin:5% 5% 5% 5%;
+    background-image:  url("images/resultb.jpg");
+    background-repeat: no-repeat;
   }
   .rl{
        margin:5% 0% 5% 0%;

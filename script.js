@@ -1,7 +1,7 @@
 function myFunction() {
     var x = Math.floor((Math.random() * 10) + 10);
     document.getElementById("demo").innerHTML = x;
-    
+    document.getElementById("dis").innerHTML="";
   }
 function myFunction1() {
     var x = document.getElementById("myNumber").value;
