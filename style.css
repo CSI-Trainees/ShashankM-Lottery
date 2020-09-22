@@ -37,7 +37,7 @@ html{
     border:10px solid #3806f0;
     text-align:center;
     padding:2% 2% 2% 2%;
-  }
+    }
   .game{
     background-color:rgb(229, 226, 226);
     border:1px solid silver;
@@ -50,23 +50,29 @@ html{
     background-repeat: no-repeat;
   }
   .bg{
-    margin:7% 5% 2% 40%;
+    margin:4% 5% 1% 40%;
     padding:2% 2% 2% 2%;
-    background-color: #5289ee; 
-    color:#f3f028;
+    background-color: #0d3888; 
+    color:#f1b307;
     font-size: 200%;
     font-family: cursive;
     text-align: center;
+    border-radius: 30%;
+    cursor:pointer;
+  }
+  .bg:hover{
+    color:#36f155;
   }
   
   .gn{
      border:1px solid #141313;
-      margin:1% 25% 2% 35%;
+      margin:5% 25% 7% 35%;
       padding: 0%;
       font-size:500%;
       text-align: center;
       color: #ffffff;
       background-color: #fd7f09;
+      border-radius: 40%;
   }
   .Results{
     border:1px solid white;
@@ -92,18 +98,24 @@ html{
     text-align:center;
     font-family: cursive;
     font-size: 200%;
-    color:#5289ee;
-    background-color: #9ec72f;
+    color:#0059ff;
+    background-color: #690b0b;
+    border-radius: 30%;
+    cursor:pointer;
+  }
+  .rb:hover{
+    color:#ffc402;
   }
   .r{
-     font-size: 400%;
+     font-size: 800%;
      font-style: italic;
      border:1px solid #141414;
      margin:5% 20% 5% 30%;
      padding: 0% 2% 0% 2%;
      text-align: center;
-     color:#aa1772;
-     background-image: linear-gradient(rgba(240, 221, 48, 0.918), rgba(38, 238, 38, 0.959)); 
+     color:#08ee1b;
+     background-image: linear-gradient(rgba(255, 107, 8, 0.966), rgba(247, 3, 194, 0.959)); 
+     border-radius:40%;
   }
   .f{
     border:1px solid rgb(82, 25, 25);
