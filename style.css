@@ -127,10 +127,9 @@ html{
      color:#08ee1b;
      background-image: linear-gradient(#260bff,#ff920b); 
      border-radius:40%;
-     animation: res 5s ease-in-out infinite;
   }
   .r:hover{
-    
+    animation: res 5s ease-in-out infinite;
   }
   @keyframes res{
     0%{
