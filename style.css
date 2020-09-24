@@ -10,7 +10,7 @@ html{
   }
   header{
     height: 98vh;
-    width:100%;
+    width:auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,4 +219,23 @@ html{
   .dice img:nth-child(9){
     animation-delay:7s;
     margin-right:15%;
+  }
+  @media(max-width:500px){
+    html{
+      font-size: 5px;
+    }
+    .rl{
+      margin:100px 0px 50px 150px;
+      padding: 5px 0px 5px 0px;
+    }
+    .ri{
+      
+      margin:20px 0px 50px 150px;
+      padding: 1px 0px 1px 0px;
+    }
+  }
+  @media(min-width:501px) and (max-width:1024px){
+    html{
+      font-size: 7px;
+    }
   }
