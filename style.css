@@ -120,17 +120,16 @@ html{
   .r{
      font-size: 800%;
      font-style: italic;
-     border:1px solid #141414;
+     border:1px solid transparent;
      margin:5% 20% 5% 30%;
      padding: 0% 2% 0% 2%;
      text-align: center;
      color:#08ee1b;
      background-image: linear-gradient(#260bff,#ff920b); 
      border-radius:40%;
+     animation: res 5s ease-in-out infinite;
   }
-  .r:hover{
-    animation: res 5s ease-in-out infinite;
-  }
+  
   @keyframes res{
     0%{
       transform: rotate(0deg);
