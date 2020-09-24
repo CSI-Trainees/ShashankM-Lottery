@@ -51,7 +51,7 @@ html{
   }
   .bg{
     margin:4% 5% 1% 40%;
-    padding:2% 2% 2% 2%;
+    padding:1.5% 2% ;
     background-color: #0d3888; 
     color:#f1b307;
     font-size: 200%;
@@ -62,6 +62,10 @@ html{
   }
   .bg:hover{
     color:#36f155;
+    padding:2.5% 3%;
+    border-radius: 50%;
+    font-size:300%;
+    margin:4% 5% 1% 30%;
   }
   
   .gn{
@@ -70,9 +74,12 @@ html{
       padding: 0%;
       font-size:500%;
       text-align: center;
-      color: #ffffff;
+      color: #0409f8;
       background-color: #fd7f09;
       border-radius: 40%;
+  }
+  .gn:hover{
+    animation: floating 2s ease-in-out infinite;
   }
   .Results{
     border:1px solid white;
@@ -104,7 +111,11 @@ html{
     cursor:pointer;
   }
   .rb:hover{
+    font-size:300%;
     color:#ffc402;
+    padding:3% 6% 3% 6%;
+    border-radius: 50%;
+    margin:5% 5% 5% 35%;
   }
   .r{
      font-size: 800%;
@@ -114,8 +125,29 @@ html{
      padding: 0% 2% 0% 2%;
      text-align: center;
      color:#08ee1b;
-     background-image: linear-gradient(rgba(255, 107, 8, 0.966), rgba(247, 3, 194, 0.959)); 
+     background-image: linear-gradient(#260bff,#ff920b); 
      border-radius:40%;
+  }
+  .r:hover{
+    animation: res 5s ease-in-out infinite;
+  }
+  @keyframes res{
+    0%{
+      transform: rotate(0deg);
+    }
+    25%{
+         transform: rotate(-30deg);
+    }
+    50%{
+      transform:rotate(0deg) ;
+    }
+    75%{
+       transform:rotate(30deg);
+    }
+    100%{
+       transform: rotate(0deg);
+    }
+    
   }
   .f{
     border:1px solid rgb(82, 25, 25);
