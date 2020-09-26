@@ -37,6 +37,21 @@ html{
     border:10px solid #3806f0;
     text-align:center;
     padding:2% 2% 2% 2%;
+    animation: word 2s ease-in-out infinite;
+    }
+    @keyframes word{
+      0%{
+        color:#f9fd01;
+      }
+      50%{
+        color: #08ee1b;
+      }
+      75%{
+         color:#fd0606;
+      }
+      100%{
+          color:#fc05d3;
+      }
     }
   .game{
     background-color:rgb(229, 226, 226);
@@ -75,11 +90,37 @@ html{
       font-size:500%;
       text-align: center;
       color: #0409f8;
-      background-color: #fd7f09;
+      background-color: #131211;
       border-radius: 40%;
+      animation: num 2s ease-in-out infinite,floating 2s ease-in-out infinite;
   }
-  .gn:hover{
-    animation: floating 2s ease-in-out infinite;
+  
+  @keyframes num{
+    0%{
+      color:#ff09c1;
+      text-shadow: 0 0 3px #111111;
+      background-color: #130249;
+    }
+     25%{
+      color:#02fff2;
+      text-shadow: 0 0 3px #130f11;
+      background-color:  #3f0321;
+    }
+    50%{
+      color:#6aff00;
+      text-shadow: 0 0 3px #0c0d0e;
+      background-color: #027175;
+    }
+    75%{
+      color:#d9ff00;
+      text-shadow: 0 0 3px #0f110f;
+      background-color: #014e0b;
+    }
+    100%{
+      color:#f80c08;
+      text-shadow: 0 0 3px #111110;
+      background-color: #5a7202;
+    }
   }
   .Results{
     border:1px solid white;
@@ -118,34 +159,56 @@ html{
     margin:5% 5% 5% 35%;
   }
   .r{
-     font-size: 800%;
-     font-style: italic;
+     font-size: 600%;
+     font-style: Cursive;
      border:1px solid transparent;
      margin:5% 20% 5% 30%;
-     padding: 0% 2% 0% 2%;
+     padding: 0% 3% 0% 3%;
      text-align: center;
      color:#08ee1b;
-     background-image: linear-gradient(#260bff,#ff920b); 
-     border-radius:40%;
-     animation: res 5s ease-in-out infinite;
+     background-image: linear-gradient(#391fff,#fa8d08); 
+     border-radius:30%;
+     animation: res 5s ease-in-out infinite,res1 2s ease-in-out infinite;
   }
   
   @keyframes res{
     0%{
       transform: rotate(0deg);
+      color:#f51414;
     }
     25%{
          transform: rotate(-30deg);
+         color: #0dcdfd;
     }
     50%{
       transform:rotate(0deg) ;
+      color:#f70793;
     }
     75%{
        transform:rotate(30deg);
+       color:#06f34d;
     }
     100%{
        transform: rotate(0deg);
+       color:#f81818;
     }
+  }
+    @keyframes res1{
+      0%{
+        color:#f51414;
+      }
+      25%{
+        color: #0dcdfd;
+      }
+      50%{
+        color:#f70793;
+      }
+      75%{
+         color:#06f34d;
+      }
+      100%{
+         color:#f81818;
+      }
     
   }
   .f{
@@ -236,5 +299,19 @@ html{
   @media(min-width:501px) and (max-width:1024px){
     html{
       font-size: 7px;
+    }
+  }
+  .logo:hover{
+    animation: zo 2s ease-in-out infinite;
+  }
+  @keyframes zo{
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+      transform: scale(1.5);
+    }
+    100%{
+         transform: scale(1.0);
     }
   }

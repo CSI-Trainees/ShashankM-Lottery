@@ -5,8 +5,8 @@ function myFunction() {
   }
 function myFunction1() {
     var x = document.getElementById("myNumber").value;
-    var s="You Win";
-    var s1="You Lose";
+    var s=" Congratulations You Win";
+    var s1="Sorry You Lose";
     if(x==12 || x==14 || x==15) 
     {
     document.getElementById("d").innerHTML=s ;
