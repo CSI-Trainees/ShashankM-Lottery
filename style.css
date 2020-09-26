@@ -84,7 +84,7 @@ html{
   }
   
   .gn{
-     border:1px solid #141313;
+     border:1px solid  transparent;
       margin:5% 25% 7% 35%;
       padding: 0%;
       font-size:500%;
